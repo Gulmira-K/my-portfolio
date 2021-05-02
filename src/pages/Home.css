@@ -25,6 +25,8 @@ body > #root > .Home {
   height: 90px;
   line-height: 90px;
   overflow: hidden;
+  list-style-type: none;
+  padding-left: 0;
 }
 .dynamic-texts li {
   font-size: 50px;
@@ -98,9 +100,4 @@ body > #root > .Home {
   .text-container {
     padding-left: 6%;
   }
-  /* .dynamic-texts li {
-    position: relative;
-    top: 0;
-    animation: slide 16s steps(7) infinite;
-  } */
 }

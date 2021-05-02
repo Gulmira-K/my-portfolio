@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body > #root > .About {
+  height: 100vh;
+  padding: 5% 6%;
+  display: grid;
+  grid-template-rows: 5% 22% 3% 65% 5%;
+}
+.header {
+  font-size: 23px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(66, 224, 172);
+}
+.about-text {
+  font-size: 22px;
+  color: white;
+  margin: 2% 0 2% 5%;
+  letter-spacing: 1px;
+}
+.sub-header {
+  font-size: 23px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(185, 185, 185);
+  font-style: italic;
+  margin-left: 5%;
+}
+.About ul {
+  list-style-type: none;
+  margin: 1% 0 1% 8%;
+  padding: 0;
+}
+.About li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1.5% 0 1% 1%;
+  padding: 0;
+}
+.fab {
+  font-size: 50px;
+}
+.fa-html5 {
+  color: rgb(240, 101, 41);
+}
+.fa-css3-alt {
+  color: rgb(38, 77, 228);
+}
+.fa-js-square {
+  color: rgb(240, 219, 79);
+}
+.fa-bootstrap {
+  color: #563d7c;
+}
+.fa-react {
+  color: #61dbfb;
+}
+.fa-github-square {
+  color: white;
+}
+.progress {
+  margin-left: 3%;
+  width: 50%;
+  border: transparent;
+}
+.html {
+  background-color: rgb(240, 101, 41);
+  animation: progressHtml 2s 1 ease-out;
+  width: 92%;
+}
+.css {
+  background-color: rgb(38, 77, 228);
+  animation: progressCss 2s ease-out;
+  width: 85%;
+}
+.js {
+  background-color: rgb(240, 219, 79);
+  animation: progressJs 2s ease-out;
+  width: 69%;
+}
+.bootstrap {
+  background-color: #563d7c;
+  animation: progressBootstrap 2s ease-out;
+  width: 97%;
+}
+.react {
+  background-color: #61dbfb;
+  animation: progressReact 2s ease-out;
+  width: 70%;
+}
+.github {
+  background-color: grey;
+  animation: progressGithub 2s ease-out;
+  width: 75%;
+}
+@keyframes progressHtml {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 92%;
+  }
+}
+@keyframes progressCss {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+@keyframes progressJs {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 69%;
+  }
+}
+@keyframes progressBootstrap {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 97%;
+  }
+}
+@keyframes progressReact {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes progressGithub {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  body > #root > .About {
+    max-height: 85vh;
+  }
+  .about-text {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 414px) {
+  body > #root > .About {
+    padding: 3% 0 3% 3%;
+    grid-template-rows: 5% 27% 3% 55% 5%;
+  }
+  .header {
+    font-size: 16px;
+  }
+  .about-text {
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    padding: 1.5%;
+  }
+  .sub-header {
+    font-size: 18px;
+  }
+  .About ul {
+    margin: 8% 0 2% 8%;
+  }
+  .fab {
+    font-size: 30px;
+  }
+  .progress {
+    width: 70%;
+  }
+}

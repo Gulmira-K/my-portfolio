@@ -22,7 +22,7 @@ export default function Contact() {
       <div className='tag'>&lt;div class="<span className='header'>contact-me</span>"&gt;</div>
       {!send ?  <p className='contact-text'>Feel free to reach out to me using this form.</p> : ''}
         {!send ?
-          <form className="fontact-form" onSubmit={sendEmail}>
+          <form className="contact-form" onSubmit={sendEmail}>
             <input type="text" name="name" placeholder='Name' className='name-input'/>
             <input type="email" name="email" placeholder='E-mail' className='email-input'/>
             <textarea name="message" placeholder='Message' className='message-input'/>

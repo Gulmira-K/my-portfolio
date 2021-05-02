@@ -23,13 +23,13 @@ export default function NavBar() {
             <span className='tag'>&lt;/li&gt;</span>
           </Link>
         </li>
-        {/* <li>
+        <li>
           <Link to={'/about'} className='link'  onClick={closeMobileMenu}>
             <span className='tag'>&lt;li&gt;</span>
             <span classname='list-item'> About </span>
             <span className='tag'>&lt;/li&gt;</span>
           </Link>
-        </li> */}
+        </li>
         {/* <li>
           <Link to={'/skills'} className='link'  onClick={closeMobileMenu}>
             <span className='tag'>&lt;li&gt;</span>
