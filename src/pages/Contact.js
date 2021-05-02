@@ -23,9 +23,9 @@ export default function Contact() {
       {!send ?  <p className='contact-text'>Feel free to reach out to me using this form.</p> : ''}
         {!send ?
           <form className="contact-form" onSubmit={sendEmail}>
-            <input type="text" name="name" placeholder='Name' className='name-input'/>
-            <input type="email" name="email" placeholder='E-mail' className='email-input'/>
-            <textarea name="message" placeholder='Message' className='message-input'/>
+            <input type="text" name="name" placeholder='Name' className='name-input' autoComplete='false'/>
+            <input type="email" name="email" placeholder='E-mail' className='email-input'  autoComplete='false'/>
+            <textarea name="message" placeholder='Message' className='message-input'  autoComplete='false'/>
             <input type="submit" value="Send message" className='btn'/>
           </form>
           :
