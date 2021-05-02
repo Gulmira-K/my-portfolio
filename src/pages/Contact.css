@@ -66,12 +66,15 @@ body > #root > .Contact {
     max-height: 85vh;
   }
   .contact-form {
-    width: 700px;
+    width: 650px;
   }
 }
 @media screen and (max-width: 980px) {
   .contact-form {
     width: 500px;
+  }
+  .btn {
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 414px) {
@@ -79,13 +82,13 @@ body > #root > .Contact {
     padding: 3% 0 3% 3%;
   }
   .header {
-    font-size: 16px;
+    font-size: 14px;
   }
   .contact-text {
     font-size: 14px;
   }
   .contact-form {
-    padding-left: 2%;
+    padding: 0 2% 0 0;
     width: 300px;
   }
   .name-input,

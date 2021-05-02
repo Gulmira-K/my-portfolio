@@ -1,9 +1,9 @@
 .NavBar {
   background-color: #3a3a3a;
   height: 100vh;
-  min-width: 350px;
+  min-width: 320px;
   float: right;
-  padding: 1% 1% 0 1%;
+  padding: 1% 1% 0 0;
 }
 .menu {
   list-style: none;
@@ -27,7 +27,7 @@ li {
   color: rgb(185, 185, 185);
 }
 .tag {
-  font-size: clamp(18px, 2vw, 20px);
+  font-size: 16px;
   color: rgb(185, 185, 185);
   font-style: italic;
   letter-spacing: 5px;
@@ -62,7 +62,7 @@ li {
     display: block;
     position: absolute;
     top: -1%;
-    right: -1%;
+    right: 0;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
@@ -71,5 +71,8 @@ li {
   .fa-bars {
     color: #fff;
     font-size: 2rem;
+  }
+  .tag {
+    font-size: 12px;
   }
 }
