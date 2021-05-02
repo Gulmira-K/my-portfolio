@@ -88,8 +88,7 @@ body > #root > .Contact {
     font-size: 14px;
   }
   .contact-form {
-    padding: 0 2% 0 0;
-    width: 300px;
+    width: 330px;
   }
   .name-input,
   .email-input,
@@ -98,5 +97,10 @@ body > #root > .Contact {
   }
   .btn {
     font-size: 14px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .contact-form {
+    width: 280px;
   }
 }

@@ -7,7 +7,8 @@ body > #root > .About {
   height: 100vh;
   padding: 5% 5%;
   display: grid;
-  grid-template-rows: 5% 21% 3% 68% 5%;
+  grid-template-rows: 4% 20% 3% 67% 3%;
+  grid-gap: 1.7%;
   align-items: center;
 }
 .header {
@@ -20,10 +21,10 @@ body > #root > .About {
   font-size: 18px;
   color: white;
   margin: 1.5% 0 1.5% 5%;
-  letter-spacing: 1px;
+  letter-spacing: 0.8px;
 }
 .sub-header {
-  font-size: 23px;
+  font-size: 20px;
   text-transform: uppercase;
   font-weight: bold;
   color: rgb(185, 185, 185);
@@ -152,6 +153,7 @@ body > #root > .About {
   body > #root > .About {
     max-height: 85vh;
     grid-template-rows: 5% 25% 3% 62% 5%;
+    grid-gap: 1%;
   }
   .about-text {
     font-size: 16px;
@@ -164,6 +166,7 @@ body > #root > .About {
   body > #root > .About {
     padding: 1% 0 3% 3%;
     grid-template-rows: 5% 37% 3% 50% 5%;
+    grid-gap: 1%;
   }
   .header {
     font-size: 16px;
