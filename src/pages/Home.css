@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body > #root > .Home {
+  height: 100vh;
+  padding: 5% 6%;
+  display: grid;
+  grid-template-rows: 5% 90% 5%;
+  min-width: 360px;
+}
+.text-container {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  padding-left: 8%;
+}
+.wrapper .static-text {
+  color: #fff;
+  font-size: 55px;
+  letter-spacing: 4px;
+}
+.wrapper .dynamic-texts {
+  height: 90px;
+  line-height: 90px;
+  overflow: hidden;
+}
+.dynamic-texts li {
+  font-size: 50px;
+  color: #ffb037;
+  font-weight: 400;
+  letter-spacing: 4px;
+  padding: 0;
+  position: relative;
+  top: 0;
+  animation: slide 16s steps(4) infinite;
+}
+.dynamic-texts li .typing-text {
+  position: relative;
+}
+.dynamic-texts li .typing-text::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 12%;
+  height: 58px;
+  width: 100%;
+  background-color: #2e2e2e;
+  border-left: 2px solid #ffb037;
+  animation: typing 4s steps(30) infinite;
+}
+@keyframes slide {
+  100% {
+    top: -360px;
+  }
+}
+@keyframes typing {
+  100% {
+    left: 100%;
+    margin: 0 -15px 0 15px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  body > #root > .Home {
+    max-height: 80vh;
+  }
+  .dynamic-texts li {
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+  .dynamic-texts li .typing-text::after {
+    top: 12%;
+    height: 34px;
+  }
+}
+@media screen and (max-width: 980px) {
+  body > #root > .Home {
+    max-height: 80vh;
+  }
+  .wrapper .static-text {
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  .dynamic-texts li {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  .dynamic-texts li .typing-text::after {
+    top: 12%;
+    height: 24px;
+  }
+}
+@media screen and (max-width: 414px) {
+  body > #root > .Home {
+    padding: 3% 0 3% 3%;
+  }
+  .text-container {
+    padding-left: 6%;
+  }
+  /* .dynamic-texts li {
+    position: relative;
+    top: 0;
+    animation: slide 16s steps(7) infinite;
+  } */
+}
