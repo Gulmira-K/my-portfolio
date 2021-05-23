@@ -19,14 +19,14 @@ export default function NavBar() {
         <li>
           <Link to={'/'} className='link'  onClick={closeMobileMenu}>
             <span className='tag'>&lt;li&gt;</span>
-            <span classname='list-item'> Gulmira </span>
+            <span className='list-item'> Gulmira </span>
             <span className='tag'>&lt;/li&gt;</span>
           </Link>
         </li>
         <li>
           <Link to={'/about'} className='link'  onClick={closeMobileMenu}>
             <span className='tag'>&lt;li&gt;</span>
-            <span classname='list-item'> About </span>
+            <span className='list-item'> About </span>
             <span className='tag'>&lt;/li&gt;</span>
           </Link>
         </li>
@@ -37,17 +37,17 @@ export default function NavBar() {
             <span className='tag'>&lt;/li&gt;</span>
           </Link>
         </li> */}
-        {/* <li>
+        <li>
            <Link to={'/works'} className='link'  onClick={closeMobileMenu}>
             <span className='tag'>&lt;li&gt;</span>
-            <span classname='list-item'> Works </span>
+            <span className='list-item'> Works </span>
             <span className='tag'>&lt;/li&gt;</span>
             </Link>
-        </li> */}
+        </li>
         <li>
            <Link to={'/contact'} className='link'  onClick={closeMobileMenu}>
             <span className='tag'>&lt;li&gt;</span>
-            <span classname='list-item'> Contact </span>
+            <span className='list-item'> Contact </span>
             <span className='tag'>&lt;/li&gt;</span>
           </Link>
         </li>
