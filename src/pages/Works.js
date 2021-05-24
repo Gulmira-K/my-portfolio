@@ -16,7 +16,7 @@ export default function Works() {
               </div>
             </div>
           </a>
-           <p className='work__description'>A simple ToDo List App coded <br/> in HTML, JavaScript and CSS.</p>
+           <p className='work__description'>A simple ToDo List coded in <br/> HTML, JavaScript and CSS.</p>
         </div>
         <div className='works__item'>
           <a href='https://react-weatherapp-by-gulmira.netlify.app/' rel="noreferrer" target='_blank'>
