@@ -8,7 +8,7 @@ export default function Works() {
       <div className='tag'>&lt;div class="<span className='header'>works</span>"&gt;</div>
       <div className='works__container'>
         <div className='works__item'>
-          <a href='https://todo-list-by-gulmira.netlify.app/' target='_blank'>
+          <a href='https://todo-list-by-gulmira.netlify.app/' rel="noreferrer" target='_blank'>
             <div className='image'>
               <img src={todo} alt='ToDo List' />
               <div className='image__overlay'>
@@ -19,7 +19,7 @@ export default function Works() {
            <p className='work__description'>A simple ToDo List App coded <br/> in HTML, JavaScript and CSS.</p>
         </div>
         <div className='works__item'>
-          <a href='https://react-weatherapp-by-gulmira.netlify.app/' target='_blank'>
+          <a href='https://react-weatherapp-by-gulmira.netlify.app/' rel="noreferrer" target='_blank'>
             <div className='image'>
               <img src={weather} alt='Weather App' />
               <div className='image__overlay'>
