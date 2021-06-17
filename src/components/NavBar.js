@@ -54,9 +54,18 @@ export default function NavBar() {
          <li>
           <span className='tag'>&lt;/ul&gt;</span>
         </li>
+        <li className='socialsLinks'>
+          <a href='https://github.com/Gulmira-K' rel="noreferrer" target='_blank'>
+            <i class="fab fa-github"></i>
+          </a>
+          <a href='https://www.linkedin.com/in/gulmira-kojenova/' rel="noreferrer" target='_blank'>
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="mailto:gkojenova@gmail.com" rel="noreferrer" target='_blank'>
+            <i class="fas fa-envelope"></i>
+          </a>
+        </li>
       </ul>
-
-     
     </div>
   )
 }

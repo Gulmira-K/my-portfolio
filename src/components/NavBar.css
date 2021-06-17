@@ -32,6 +32,19 @@ li {
   font-style: italic;
   letter-spacing: 5px;
 }
+.socialsLinks {
+  min-width: 250px;
+  position: absolute;
+  bottom: 7%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+.socialsLinks i {
+  font-size: 35px;
+  color: rgb(185, 185, 185);
+  cursor: pointer;
+}
 @media screen and (max-width: 1300px) {
   .NavBar {
     width: 100vw;
