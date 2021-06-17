@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 body > #root > .Works {
-  height: 90vh;
-  padding: 5% 6%;
+  height: 100vh;
+  padding: 3% 6% 2% 6%;
   display: grid;
   grid-template-rows: 10% 80% 5%;
 }
@@ -17,19 +17,21 @@ body > #root > .Works {
 }
 .works__container {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 30% 30% 30%;
   grid-gap: 2%;
   justify-items: center;
   align-items: center;
+  height: 100%;
 }
 .image {
-  width: 350px;
+  width: 250px;
   border-radius: 10px;
   position: relative;
 }
 .image img {
   display: block;
   width: 100%;
+  height: 140px;
   border-radius: 10px;
   cursor: pointer;
 }
@@ -42,7 +44,7 @@ body > #root > .Works {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgb(66, 224, 172, 0.8);
+  background: rgb(66, 224, 172, 0.9);
   color: white;
   display: flex;
   flex-direction: column;
